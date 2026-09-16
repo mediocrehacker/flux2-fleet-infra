@@ -372,7 +372,7 @@ Bootstrap Flux on production by setting the context and path to your production 
 ```sh
 flux bootstrap github \
     --components-extra=source-watcher \
-    --context=production \
+    --context=pozitive \
     --owner=${GITHUB_USER} \
     --repository=${GITHUB_REPO} \
     --branch=main \
